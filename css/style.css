@@ -1,0 +1,49 @@
+div {
+    background: #ffffb3;
+    padding: 15px;
+}
+
+header {
+    text-align: center;
+    background-color: #ffffb3;
+    position: sticky;
+    top: 0;
+}
+
+nav {
+    height: 70px;
+    background-color: #ffee88;
+    align-content: center;
+    border-radius: 18px;
+}
+
+nav li {
+    margin: 0 auto;
+}
+
+.imgContainer{
+    float: left;
+    background-color: #ffffb3;
+    width: 220px;
+    align-items: center;
+}
+img {
+    display: block;
+    width: 200px;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 8px;
+
+}
+
+nav > li > a:hover {
+    transition: font-size .8s ;
+    font-size: large;
+    text-shadow:.1em .1em .2em #000;
+}
+
+p {
+    display: inline;
+    text-align: justify;
+}
